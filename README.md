@@ -154,4 +154,4 @@ What are the most common genres?
 
 - Explore NLP on reviews to connect sentiment with ratings.
 
-Build interactive dashboards (Plotly/Power BI) for dynamic trend analysis.
+- Build interactive dashboards (Plotly/Power BI) for dynamic trend analysis.
