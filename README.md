@@ -1,5 +1,3 @@
-# Case-Study---IMDB-Movvie-Analysis
-
 # 🎬 Movie Dataset Analysis – Python Project
 # 📌 Project Overview
 
