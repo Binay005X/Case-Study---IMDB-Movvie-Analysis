@@ -23,7 +23,7 @@ The following libraries are used in this project:
 
 ## 📂 Project Tasks & Key Questions
 
-1. Project Setup and Data Loading
+## 1. Project Setup and Data Loading
 
 ✔ Load dataset into pandas DataFrame.
 ✔ Identify dataset shape (rows = movies, columns = attributes).
@@ -34,125 +34,124 @@ Key Questions:
 
 - What is the dataset shape and meaning of rows/columns?
 
-2. Data Overview and Basic Exploration
+## 2. Data Overview and Basic Exploration
 
 ✔ Used .info() to check data types & missing values.
 ✔ Used .describe() for statistical summary.
 
-Key Questions:
+## Key Questions:
 
-What issues exist in data types/missing values?
+- What issues exist in data types/missing values?
 
-What do mean, median, and distribution tell us?
+- What do mean, median, and distribution tell us?
 
-3. Data Cleaning
+## 3. Data Cleaning
 
 ✔ Handled missing values appropriately.
 ✔ Converted columns like release dates, ratings into correct formats.
 ✔ Detected and treated outliers in budget/revenue.
 
-Key Questions:
+## Key Questions:
 
-Which columns have missing values?
+- Which columns have missing values?
 
-Which columns need type conversion and why?
+- Which columns need type conversion and why?
 
-4. Univariate Analysis
+## 4. Univariate Analysis
 
 ✔ Explored runtime distribution with histograms.
 ✔ Checked most frequent genres with bar plots.
 
-Key Questions:
+## Key Questions:
 
 What is the distribution of runtimes?
 
 What are the most common genres?
 
-5. Bivariate Analysis
+## 5. Bivariate Analysis
 
 ✔ Scatter plots to check runtime vs rating.
 ✔ Boxplots to compare ratings across genres.
 ✔ Correlation analysis between votes, budget, and revenue.
 
-Key Questions:
+## Key Questions:
 
-Relationship between runtime & rating?
+- Relationship between runtime & rating?
 
-Do ratings vary by genre?
+- Do ratings vary by genre?
 
-Is there correlation between votes, budget, and revenue?
+- Is there correlation between votes, budget, and revenue?
 
-6. Genre-Specific Analysis
+## 6. Genre-Specific Analysis
 
 ✔ Average rating calculated per genre.
 ✔ Trend analysis of genre popularity over time.
 
-Key Questions:
+## Key Questions:
 
-Which genre has the highest average rating?
+- Which genre has the highest average rating?
 
-How does genre popularity vary over time?
+- How does genre popularity vary over time?
 
-7. Year & Trend Analysis
+# 7. Year & Trend Analysis
 
 ✔ Plotted ratings over the years.
 ✔ Plotted number of movie releases per year.
 
-Key Questions:
+# Key Questions:
 
-How has average rating changed over the years?
+- How has average rating changed over the years?
 
-Which years had highest & lowest movie releases?
+- Which years had highest & lowest movie releases?
 
-8. Multivariate Analysis
+## 8. Multivariate Analysis
 
 ✔ Genre popularity by decade.
 ✔ Heatmaps/pairplots of budget, revenue, and scores.
 ✔ Grouped by genre & year for rating comparisons.
 
-Key Questions:
+## Key Questions:
 
-Which genres dominate in each decade?
+- Which genres dominate in each decade?
 
-How do budget/revenue/scores relate?
+- How do budget/revenue/scores relate?
 
-Are certain genres/years linked to higher ratings?
+- Are certain genres/years linked to higher ratings?
 
 ## 📊 Insights & Findings
-📊 Insights & Findings
 
-Runtimes → Most movies cluster around 90–120 minutes.
+- Runtimes → Most movies cluster around 90–120 minutes.
 
-Genres → Drama and Comedy dominate in frequency, but Action/Adventure contribute more revenue.
+- Genres → Drama and Comedy dominate in frequency, but Action/Adventure contribute more revenue.
 
-Ratings → Documentaries and niche genres often receive higher ratings despite fewer releases.
+- Ratings → Documentaries and niche genres often receive higher ratings despite fewer releases.
 
-Revenue & Budget → Strong correlation between budget and revenue, but outliers exist (low-budget hits, high-budget flops).
+- Revenue & Budget → Strong correlation between budget and revenue, but outliers exist (low-budget hits, high-budget flops).
 
-Trends → Movie releases peaked in the 2010s and surged post-2020 due to streaming platforms.
+- Trends → Movie releases peaked in the 2010s and surged post-2020 due to streaming platforms.
 
-🔎 Insights and Summary
+# 🔎 Insights and Summary
 
-Drama’s Consistent Dominance → Drama has been the most released genre since the 1990s, reflecting its strong and enduring global appeal.
+- Drama’s Consistent Dominance → Drama has been the most released genre since the 1990s, reflecting its strong and enduring global appeal.
 
-Genre Growth Post-2000 → After 2000, all major genres — especially Comedy, Thriller, and Action — saw a sharp rise in releases, driven by digital platforms and global distribution.
+- Genre Growth Post-2000 → After 2000, all major genres — especially Comedy, Thriller, and Action — saw a sharp rise in releases, driven by digital platforms and global distribution.
 
-2023 Decline & 2022 Peak → 2022 marked the peak in genre releases, possibly due to a post-COVID backlog, followed by a noticeable dip in 2023, likely due to industry disruptions or incomplete data.
+- 2023 Decline & 2022 Peak → 2022 marked the peak in genre releases, possibly due to a post-COVID backlog, followed by a noticeable dip in 2023, likely due to industry disruptions or incomplete data.
 
-❓ Future Exploration
+# ❓ Future Exploration
 
-Additional questions to explore with this dataset:
+## Additional questions to explore with this dataset:
 
-Does release season (month or quarter) affect ratings or genre performance?
+- Does release season (month or quarter) affect ratings or genre performance?
 
-Do genres with more releases also tend to receive higher or lower average ratings?
+- Do genres with more releases also tend to receive higher or lower average ratings?
 
-How have niche genres (e.g., Sci-Fi, Documentary, Animation) evolved over time in terms of both popularity and ratings?
+- How have niche genres (e.g., Sci-Fi, Documentary, Animation) evolved over time in terms of both popularity and ratings?
 
-🚀 Future Improvements
+# 🚀 Future Improvements
 
-Add ML models to predict movie success.
+- Add ML models to predict movie success.
 
-Explore NLP on reviews to connect sentiment with ratings.
+- Explore NLP on reviews to connect sentiment with ratings.
 
 Build interactive dashboards (Plotly/Power BI) for dynamic trend analysis.
