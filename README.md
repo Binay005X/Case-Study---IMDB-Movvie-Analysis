@@ -11,15 +11,15 @@ The goal is to apply Python data analysis techniques and generate insights into 
 
 The following libraries are used in this project:
 
-pandas → For data loading, cleaning, and manipulation
+- pandas → For data loading, cleaning, and manipulation
 
-numpy → For numerical operations and summary statistics
+- numpy → For numerical operations and summary statistics
 
-matplotlib & seaborn → For data visualization (histograms, scatter plots, bar charts, heatmaps, etc.)
+- matplotlib & seaborn → For data visualization (histograms, scatter plots, bar charts, heatmaps, etc.)
 
-scipy → For correlation and statistical analysis
+- scipy → For correlation and statistical analysis
 
-datetime → For handling release dates and trends over time
+- datetime → For handling release dates and trends over time
 
 ## 📂 Project Tasks & Key Questions
 
@@ -30,9 +30,9 @@ datetime → For handling release dates and trends over time
 
 Key Questions:
 
-What libraries are required, and why?
+- What libraries are required, and why?
 
-What is the dataset shape and meaning of rows/columns?
+- What is the dataset shape and meaning of rows/columns?
 
 2. Data Overview and Basic Exploration
 
@@ -119,17 +119,40 @@ How do budget/revenue/scores relate?
 Are certain genres/years linked to higher ratings?
 
 ## 📊 Insights & Findings
+📊 Insights & Findings
 
 Runtimes → Most movies cluster around 90–120 minutes.
 
 Genres → Drama and Comedy dominate in frequency, but Action/Adventure contribute more revenue.
 
-Ratings → Some genres (e.g., Documentaries) receive higher ratings despite fewer releases.
+Ratings → Documentaries and niche genres often receive higher ratings despite fewer releases.
 
-Revenue & Budget → Strong correlation between budget and revenue, but not perfect.
+Revenue & Budget → Strong correlation between budget and revenue, but outliers exist (low-budget hits, high-budget flops).
 
-Trends → Movie releases peaked in the 2010s; recent years show genre diversification.
+Trends → Movie releases peaked in the 2010s and surged post-2020 due to streaming platforms.
 
-Genre Popularity → Action/Adventure dominates box office revenue; Drama remains the most produced genre.
+🔎 Insights and Summary
 
-Cancellations (if dataset includes streaming/OTT) → Could analyze drop rates and trends.
+Drama’s Consistent Dominance → Drama has been the most released genre since the 1990s, reflecting its strong and enduring global appeal.
+
+Genre Growth Post-2000 → After 2000, all major genres — especially Comedy, Thriller, and Action — saw a sharp rise in releases, driven by digital platforms and global distribution.
+
+2023 Decline & 2022 Peak → 2022 marked the peak in genre releases, possibly due to a post-COVID backlog, followed by a noticeable dip in 2023, likely due to industry disruptions or incomplete data.
+
+❓ Future Exploration
+
+Additional questions to explore with this dataset:
+
+Does release season (month or quarter) affect ratings or genre performance?
+
+Do genres with more releases also tend to receive higher or lower average ratings?
+
+How have niche genres (e.g., Sci-Fi, Documentary, Animation) evolved over time in terms of both popularity and ratings?
+
+🚀 Future Improvements
+
+Add ML models to predict movie success.
+
+Explore NLP on reviews to connect sentiment with ratings.
+
+Build interactive dashboards (Plotly/Power BI) for dynamic trend analysis.
